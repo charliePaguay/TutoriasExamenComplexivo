@@ -19,16 +19,7 @@ public class SistemaConsultaBancaria {
      */
     public static void main(String[] args) {
         // TODO code applicatio
-        Docente dnl = new Docente(100);
-        dnl.setApellido("Paguay");
-        dnl.setNombre("Charlie");
-        Administrativo tal = new Administrativo (200);
-        tal.setApellido("La Mero");
-        tal.setNombre("La Diana");
-        Estudiante enl = new Estudiante (300);
-        enl.setApellido("El Guapo");
-        enl.setNombre("El Pedro");
-        List<Persona> personas =new ArrayList<Persona>();n logic here
+
     }
     
 }
