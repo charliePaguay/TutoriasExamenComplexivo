@@ -1,14 +1,47 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Modelo;
 
-/**
- *
- * @author Karlos
- */
-public class Cuenta {
+public class Cuenta extends Banco{
+    
+    private String TipoDeCuenta;
+    private String TitularCuenta;
+
+    public Cuenta(String TipoDeCuenta) {
+        this.TipoDeCuenta = TipoDeCuenta;
+    }
+
+    public Cuenta() {
+    }
+
+    
+    @Override
+    public void mostrar() {
+    super.mostrar();
+        System.out.print("soy docente");
+    }
+    
+    
+    
+    public String getTipoDeCuenta() {
+        return TipoDeCuenta;
+    }
+
+    public void setTipoDeCuenta(String TipoDeCuenta) {
+        this.TipoDeCuenta = TipoDeCuenta;
+    }
+
+    public String getTitularCuenta() {
+        return TitularCuenta;
+    }
+
+    public void setTitularCuenta(String TitularCuenta) {
+        this.TitularCuenta = TitularCuenta;
+    }
+    
+    
+    
+    
+    
+    
     
 }
